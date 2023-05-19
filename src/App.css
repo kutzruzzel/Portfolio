@@ -1,38 +1,109 @@
 .App {
   text-align: center;
+  font-family: sans-serif;
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+
+  background: #091124;
+  mix-blend-mode: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.p1{
+  position: absolute;
+  width: 823px;
+  height: 102px;
+  left: 812px;
+  top: 290px;
+  text-align: left;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+
+  color: #FFFFFF;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.p2{
+  
+position: absolute;
+width: 1025px;
+height: 327px;
+left: 812px;
+top: 392px;
+text-align: left;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+
+color: #BCBCBC;
+
 }
 
-.App-link {
-  color: #61dafb;
+.p3{
+  position: absolute;
+  width: 165px;
+  height: 98px;
+  left: 951px;
+  top: 850px;
+  text-align: left;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  
+  color: #FFFFFF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.p4{
+  position: absolute;
+  width: 329px;
+  height: 98px;
+  left: 1184px;
+  top: 850px;
+  text-align: left;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  
+  color: #FFFFFF;
+}
+
+.github{
+position: absolute;
+width: 50.93px;
+height: 49.57px;
+left: calc(50% - 50.93px/2 + 700.47px);
+top: 850px;
+color: #e8e8e8;
+
+}
+
+.linkedin{
+  position: absolute;
+width: 50.93px;
+height: 49.57px;
+left: calc(50% - 50.93px/2 + 797.38px);
+top: 850px;
+
+color: #e8e8e8;
+border-radius: 3px;
 }

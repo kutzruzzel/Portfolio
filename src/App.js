@@ -1,23 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import { Link } from 'react-router-dom';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+        <div className='intro'>
+       <p className='p1'>Welcome to my portfolio!</p>
+       <p className='p2'>I am Kutz Ruzzel Sumaya, a web developer with a strong focus on creating engaging and dynamic user experiences.</p>
+       </div>
+       
+       <div className='footer'>
+       <p className='p3'>Call me: 123-456-789</p>
+       <p className='p4'>Email: kutzsumaya@yahoo.com </p>
+       <Link to="https://github.com/Kutz-S" >
+       <div>
+       <FaGithub className='github' />
+       </div>
+       </Link>
+       <Link to="https://www.linkedin.com/in/kutz-sumaya-a03884277/" >
+       <div>
+       <FaLinkedin className='linkedin' />
+       </div>
+       </Link>
+       </div>
+
+  
     </div>
   );
 }

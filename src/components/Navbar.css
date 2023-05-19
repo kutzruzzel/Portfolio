@@ -1,0 +1,69 @@
+.NavbarItems{
+position: absolute;
+width: 1920px;
+height: 151px;
+left: calc(50% - 1920px/2);
+background: #091124;
+    
+}
+
+.logo1{
+position: absolute;
+width: 116px;
+height: 103px;
+left: 52px;
+top: 31px;
+mix-blend-mode: normal;
+border-radius: 35px;
+}
+
+.projects{
+    position: absolute;
+    width: 107px;
+    height: 26px;
+    left: calc(50% - 107px/2 - 633.5px);
+    top: 69px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #FFFFFF;
+    
+}
+
+.techno{
+    position: absolute;
+    width: 174px;
+    height: 41px;
+    left: calc(50% - 174px/2 - 403px);
+    top: 69px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #FFFFFF;
+    
+}
+
+.aboutme{
+    position: absolute;
+    width: 130px;
+    height: 26px;
+    left: calc(50% - 130px/2 - 153px);
+    top: 69px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #FFFFFF;
+
+}
