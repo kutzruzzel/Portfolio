@@ -1,69 +1,119 @@
-.NavbarItems{
-position: absolute;
-width: 1920px;
-height: 151px;
-left: calc(50% - 1920px/2);
-background: #091124;
-    
+.NavbarItems {
+  position: absolute;
+  width: 100%;
+  height: 10vw;
+  left: 0;
+  background: #091124;
 }
 
-.logo1{
-position: absolute;
-width: 116px;
-height: 103px;
-left: 52px;
-top: 31px;
-mix-blend-mode: normal;
-border-radius: 35px;
+.logo1 {
+  position: absolute;
+  width: 6vw;
+  height: 5.5vw;
+  left: 2.5vw;
+  top: 1.5vw;
+  mix-blend-mode: normal;
+  border-radius: 35px;
 }
 
-.projects{
-    position: absolute;
-    width: 107px;
-    height: 26px;
-    left: calc(50% - 107px/2 - 633.5px);
-    top: 69px;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    
-    color: #FFFFFF;
-    
+.projects {
+  position: absolute;
+  width: 5.6vw;
+  height: 1.3vw;
+  left: calc(50% - 5.6vw/2 - 33vw);
+  top: 3vw;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2vw;
+  line-height: 1.8vw;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
 }
 
-.techno{
-    position: absolute;
-    width: 174px;
-    height: 41px;
-    left: calc(50% - 174px/2 - 403px);
-    top: 69px;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    
-    color: #FFFFFF;
-    
+.projects:hover {
+    color: black;
+  }
+
+.techno {
+  position: absolute;
+  width: 9vw;
+  height: 2.2vw;
+  left: calc(50% - 9vw/2 - 20vw);
+  top: 3vw;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2vw;
+  line-height: 1.8vw;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
 }
 
-.aboutme{
-    position: absolute;
-    width: 130px;
-    height: 26px;
-    left: calc(50% - 130px/2 - 153px);
-    top: 69px;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    
-    color: #FFFFFF;
+.techno:hover {
+    color: black;
+  }
 
+.aboutme {
+  position: absolute;
+  width: 7vw;
+  height: 1.3vw;
+  left: calc(50% - 7vw/2 - 7.5vw);
+  top: 3vw;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2vw;
+  line-height: 1.8vw;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
 }
+.aboutme:hover {
+    color: black;
+  }
+
+@media (max-width: 767px) {
+    .NavbarItems {
+      height: 15vh;
+    }
+  
+    .logo1 {
+        width: 12vw;
+        top: 22%;
+        height: 10vw;
+        border-radius: 15px;
+      }
+  
+    .projects,
+    .techno,
+    .aboutme {
+      width: 30vw;
+      font-size: 2vh;
+      line-height: 6vh;
+    }
+  
+    .projects {
+      left: 10%;
+      top: 20%;
+    }
+  
+    .techno {
+      left: 35%;
+      top: 20%;
+    }
+  
+    .aboutme {
+      left: 60%;
+      top: 20%;
+      
+    }
+  }
