@@ -22,11 +22,11 @@
 
 .projects {
   position: absolute;
-  width: 5.6vw;
+  width: 6.5vw;
   height: 2.2vw;
   left: calc(50% - 5.6vw/2 - 33vw);
   top: 3vw;
-  font-family: 'Poppins';
+  font-family: 'Roboto Mono', monospace;
   font-style: normal;
   font-weight: 500;
   font-size: 1.2vw;
@@ -49,11 +49,11 @@
 
 .techno {
   position: absolute;
-  width: 9vw;
+  width: 9.3vw;
   height: 2.2vw;
   left: calc(50% - 9vw/2 - 20vw);
   top: 3vw;
-  font-family: 'Poppins';
+  font-family: 'Roboto Mono', monospace;
   font-style: normal;
   font-weight: 500;
   font-size: 1.2vw;
@@ -80,7 +80,7 @@
   height: 2.2vw;
   left: calc(50% - 7vw/2 - 7.5vw);
   top: 3vw;
-  font-family: 'Poppins';
+  font-family: 'Roboto Mono', monospace;
   font-style: normal;
   font-weight: 500;
   font-size: 1.2vw;
@@ -120,7 +120,7 @@
       top: 30%;
       height: 6vw;
       width: 15vw;
-      font-size: 2vh;
+      font-size: 1.5vh;
       line-height: 4vw;
       
     }
@@ -130,17 +130,17 @@
       top: 30%;
       height: 6vw;
       width: 21vw;
-      font-size: 2vh;
+      font-size: 1.5vh;
       line-height: 4vw;
       
     }
   
     .aboutme {
-      left: 65%;
+      left: 68%;
       top: 30%;
       height: 6vw;
-      width: 22vw;
-      font-size: 2vh;
+      width: 20vw;
+      font-size: 1.5vh;
       line-height: 4vw;
       
       
