@@ -85,6 +85,7 @@
   top: 90%;
   transform: translateX(-50%);
   color: #e8e8e8;
+  transition: color 1s;
 }
 .github:hover {
   color: black;
@@ -99,6 +100,7 @@
   transform: translateX(-50%);
   color: #e8e8e8;
   border-radius: 3px;
+  transition: color 1s;
 }
 .linkedin:hover {
   color: black;
