@@ -8,13 +8,18 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-        <div className='intro'>
-       <p className='p1'>Welcome to my portfolio!</p>
-       <p className='p2'>I am Kutz Ruzzel Sumaya, a Full Stack Developer with a strong focus on creating engaging and dynamic user experiences.</p>
-       </div>
+      <section className='intro'>
+
        
+      
+
+       <div className='curve'></div>
+        <p className='p1'>Welcome to my portfolio!</p>
+        <p className='p2'>I am Kutz Ruzzel Sumaya, a Full Stack Developer with a strong focus on creating engaging and dynamic user experiences.</p>
+       </section>
+       
+       <section className='darker'>
        <div className='footer'>
-       
        <p className='p4'>Email: kutzsumaya@yahoo.com </p>
        <Link to="https://github.com/Kutz-S" >
        <div>
@@ -28,8 +33,9 @@ function App() {
        </Link>
        </div>
 
-  
+       </section>
     </div>
+    
   );
 }
 
