@@ -28,6 +28,11 @@
   font-size: 3vw;
   line-height: 6vw;
   color: #FFFFFF;
+  transition: transform 2s;
+}
+
+.p1:hover{
+  transform: translateY(-10px);
 }
 
 .p2 {
@@ -43,7 +48,12 @@
   font-size: 2vw;
   line-height: 4vw;
   color: #BCBCBC;
+  transition: transform 2s;
 }
+.p2:hover{
+  transform: translateY(-10px);
+}
+
 
 .p3 {
   position: absolute;
