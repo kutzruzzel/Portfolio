@@ -58,7 +58,7 @@ min-height: 50%;
   position: absolute;
   width: 45%;
   height: auto;
-  left: 50%;
+  left: 55%;
   top: 20%;
   text-align: left;
   font-family: 'Roboto Mono', monospace;
@@ -77,10 +77,10 @@ min-height: 50%;
 
 .p2 {
   position: absolute;
-  width: 55%;
+  width: 45%;
   height: auto;
-  left: 40%;
-  top: 38%;
+  left: 55%;
+  top: 30%;
   text-align: left;
   font-family: 'Roboto Mono', monospace;
   font-style: normal;
