@@ -7,6 +7,7 @@
   background: #091124;
   mix-blend-mode: normal;
   
+  
 }
 
 * {
@@ -18,7 +19,7 @@
 
 section{
 padding: 100px 20vw;
-min-height: 51%;
+min-height: 50%;
 }
 
 .darker{
@@ -26,7 +27,7 @@ min-height: 51%;
 }
 
 .curve{
-  position: absolute;
+  position: fixed;
   height: 50%;
   width: 100%;
   bottom: 0;
@@ -57,8 +58,8 @@ min-height: 51%;
   position: absolute;
   width: 45%;
   height: auto;
-  left: 40%;
-  top: 27%;
+  left: 50%;
+  top: 20%;
   text-align: left;
   font-family: 'Roboto Mono', monospace;
   font-style: normal;
