@@ -20,7 +20,9 @@ function App() {
        
        <section className='darker'>
        <div className='footer'>
+       <Link to="mailto:kutzsumaya@yahoo.com" >
        <p className='p4'>Email: kutzsumaya@yahoo.com </p>
+       </Link>
        <Link to="https://github.com/Kutz-S" >
        <div>
        <FaGithub className='github' />
