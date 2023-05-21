@@ -27,7 +27,7 @@ min-height: 50%;
 }
 
 .curve{
-  position: fixed;
+  position: absolute;
   height: 50%;
   width: 100%;
   bottom: 0;
