@@ -15,7 +15,7 @@ function App() {
 
        <div className='curve'></div>
         <p className='p1'>Welcome to my portfolio!</p>
-        <p className='p2'>I am Kutz Ruzzel Sumaya, a Full Stack Developer with a strong focus on creating engaging and dynamic user experiences.</p>
+        <p className='p2'>I am Kutz Ruzzel Sumaya, an aspiring Developer with a strong focus on creating engaging and dynamic user experiences.</p>
        </section>
        
        <section className='darker'>
