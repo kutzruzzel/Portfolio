@@ -2,12 +2,35 @@ import './projects.css';
 import Navbar from '../components/Navbar';
 import { FaGithub } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { HashLoader } from 'react-spinners';
 
 
 
 function Projects() {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(()=> {
+      setLoading(false)
+    }, 1000)
+  }, [])
   return (
-    <div className="Projects">
+    <div className="App">
+    {
+      loading ?
+
+      <HashLoader
+      color={"#185ef9"}
+      loading={loading}
+      size={150}
+    
+      />
+
+      :
+
+    <header className='App-header'>
       <Navbar/>
       <section className='intro'>
 
@@ -42,6 +65,8 @@ function Projects() {
       
       
        </section>
+       </header>
+      }
     </div>
     
   );

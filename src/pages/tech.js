@@ -1,12 +1,36 @@
 import './tech.css';
 import Navbar from '../components/Navbar';
+import React, { useState, useEffect } from 'react';
+import { HashLoader } from 'react-spinners';
 
 
 
 
 function Tech() {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(()=> {
+      setLoading(false)
+    }, 1000)
+  }, [])
   return (
-    <div className="Projects">
+    <div className="App">
+    {
+      loading ?
+
+      <HashLoader
+      color={"#185ef9"}
+      loading={loading}
+      size={150}
+    
+      />
+
+      :
+
+    <header className='App-header'>
+
       <Navbar/>
       <section className='intro'>
 
@@ -54,7 +78,8 @@ function Tech() {
         
        </section>
        
-       
+       </header>
+      }
     </div>
     
   );

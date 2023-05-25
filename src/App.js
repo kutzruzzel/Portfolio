@@ -2,17 +2,37 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { Link } from 'react-router-dom';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import React, { useState, useEffect } from 'react';
+import { HashLoader } from 'react-spinners';
 
 
 function App() {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(()=> {
+      setLoading(false)
+    }, 1000)
+  }, [])
+
   return (
     <div className="App">
+      {
+        loading ?
+
+        <HashLoader
+        color={"#185ef9"}
+        loading={loading}
+        size={150}
+      
+        />
+
+        :
+
+      <header className='App-header'>
       <Navbar/>
       <section className='intro'>
-
-       
-      
-
        <div className='curve'></div>
         <p className='p1'>Welcome to my portfolio!</p>
         <p className='p2'>I am Kutz Ruzzel Sumaya, an aspiring Developer with a strong focus on creating engaging and dynamic user experiences.</p>
@@ -34,9 +54,11 @@ function App() {
        </div>
        </Link>
        </div>
-
        </section>
+       </header>
+      }
     </div>
+
     
   );
 }
