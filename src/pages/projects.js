@@ -26,7 +26,7 @@ function Projects() {
                     EzMoney Web App
                 </h1>
               
-                <Link to="https://github.com/Kutz-S/MoneyWalletWeb" >
+                <Link to="https://github.com/Kutz-S/MoneyWalletWeb" target="_blank">
                 <div>
                 <FaGithub className='proj1github' />
                 </div>
