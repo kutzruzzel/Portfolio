@@ -4,6 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import { HashLoader } from 'react-spinners';
+import AnimatedPage from './AnimatedPage';
 
 
 
@@ -32,12 +33,14 @@ function Projects() {
 
     <header className='App-header'>
       <Navbar/>
+  
       <section className='intro'>
 
        
       
 
        <div className='curve'></div>
+       <AnimatedPage>
         <p className='p5'>Projects</p>
         <div className='proj1'>
             <div className='proj1image'>
@@ -59,12 +62,14 @@ function Projects() {
                 React - Styled Components
             </p>
         </div>
+        </AnimatedPage>
        </section>
        
        <section className='darker'>
       
       
        </section>
+      
        </header>
       }
     </div>

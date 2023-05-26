@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import React, { useState, useEffect } from 'react';
 import { HashLoader } from 'react-spinners';
+import AnimatedPage from './pages/AnimatedPage';
 
 
 function App() {
@@ -34,11 +35,14 @@ function App() {
       <Navbar/>
       <section className='intro'>
        <div className='curve'></div>
+        <AnimatedPage>
         <p className='p1'>Welcome to my portfolio!</p>
         <p className='p2'>I am Kutz Ruzzel Sumaya, an aspiring Developer with a strong focus on creating engaging and dynamic user experiences.</p>
+        </AnimatedPage>
        </section>
        
        <section className='darker'>
+      <AnimatedPage>
        <div className='footer'>
        <Link to="mailto:kutzsumaya@yahoo.com" >
        <p className='p4'>Email: kutzsumaya@yahoo.com </p>
@@ -54,6 +58,7 @@ function App() {
        </div>
        </Link>
        </div>
+       </AnimatedPage>
        </section>
        </header>
       }

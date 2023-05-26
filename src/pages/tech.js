@@ -2,6 +2,7 @@ import './tech.css';
 import Navbar from '../components/Navbar';
 import React, { useState, useEffect } from 'react';
 import { HashLoader } from 'react-spinners';
+import AnimatedPage from './AnimatedPage';
 
 
 
@@ -20,23 +21,25 @@ function Tech() {
     {
       loading ?
 
+    
       <HashLoader
       color={"#185ef9"}
       loading={loading}
       size={150}
     
       />
-
+     
       :
 
     <header className='App-header'>
 
       <Navbar/>
+      <AnimatedPage>
       <section className='intro'>
 
        
        <p className='p6'>Technologies</p>
-
+       
           <div className='technologies'>
               <div>
                 <p className='p7'>Html</p>
@@ -77,7 +80,7 @@ function Tech() {
            
         
        </section>
-       
+       </AnimatedPage>
        </header>
       }
     </div>
