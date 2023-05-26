@@ -44,15 +44,15 @@ function App() {
        <section className='darker'>
       <AnimatedPage>
        <div className='footer'>
-       <Link to="mailto:kutzsumaya@yahoo.com" >
+       <Link to="mailto:kutzsumaya@yahoo.com">
        <p className='p4'>Email: kutzsumaya@yahoo.com </p>
        </Link>
-       <Link to="https://github.com/Kutz-S" >
+       <Link to="https://github.com/Kutz-S" target="_blank">
        <div>
        <FaGithub className='github' />
        </div>
        </Link>
-       <Link to="https://www.linkedin.com/in/kutz-sumaya-a03884277/" >
+       <Link to="https://www.linkedin.com/in/kutz-sumaya-a03884277/" target="_blank">
        <div>
        <FaLinkedin className='linkedin' />
        </div>
