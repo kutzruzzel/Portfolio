@@ -1,148 +1,139 @@
 .Tech {
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: #091124;
-    mix-blend-mode: normal;
-    
-    
-  }
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #091124;
+  mix-blend-mode: normal;
+}
 
-  * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto Mono', monospace;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+  box-sizing: border-box;
+}
+
+.p6 {
+  position: absolute;
+  width: 10%;
+  height: auto;
+  left: 42.5%;
+  top: 15%;
+  text-align: left;
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 6vw;
+  color: #ffffff;
+  transition: transform 2s;
+  cursor: default;
+}
+
+.technologies {
+  position: absolute;
+  width: 60%;
+  height: 70%;
+  left: 20%;
+  top: 22%;
+}
+
+.p7 {
+  position: absolute;
+  width: 185.2px;
+  height: 43.7px;
+  left: 5%;
+  top: var(--p7top, 4%);
+  padding-left: 1%;
+  text-align: left;
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #ffffff;
+}
+
+.p8 {
+  position: absolute;
+  width: 185.2px;
+  height: 43.7px;
+  left: 85%;
+  top: var(--p7top, 4%);
+  padding-left: 1%;
+  text-align: left;
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+.bar {
+  position: absolute;
+  width: 90%;
+  height: 1.3vw;
+  left: 5%;
+  top: var(--bart, 10%);
+  background: #162950;
+  border-radius: 83px;
+}
+
+.barcolor {
+  position: absolute;
+  width: var(--barcolorw, 70%);
+  height: 1.3vw;
+  left: 5%;
+  top: var(--barcolort, 10%);
+  background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+  border-radius: 83px;
+}
+
+.css {
+  --barcolort: 25%;
+  --bart: 25%;
+  --p7top: 19%;
+}
+
+.javascript {
+  --barcolort: 40%;
+  --bart: 40%;
+  --p7top: 34%;
+  --barcolorw: 50%;
+}
+
+.react {
+  --barcolort: 55%;
+  --bart: 55%;
+  --p7top: 49%;
+  --barcolorw: 36%;
+}
+
+.figma {
+  --barcolort: 70%;
+  --bart: 70%;
+  --p7top: 64%;
+  --barcolorw: 40%;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 767px) {
+  .p7 {
+    font-size: 3vw;
   }
-  
-  
- 
 
   .p6 {
-    position: absolute;
-    width: 10%;
-    height: auto;
-    left: 42.5%;
-    top: 15%;
-    text-align: left;
-    font-family: 'Roboto Mono', monospace;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2vw;
-    line-height: 6vw;
-    color: #FFFFFF;
-    transition: transform 2s;
-    cursor:default;
+    font-size: 4vw;
+    left: 39%;
   }
 
-  .technologies{
-    position: absolute;
-    width: 60%;
-    height: 70%;
-    left: 20%;
-    top: 22%;
+  .p8 {
+    font-size: 3vw;
+    left: 75%;
   }
-
-  .p7{
-    position: absolute;
-    width: 185.2px;
-    height: 43.7px;
-    left: 5%;
-    top: var(--p7top, 4%);
-    padding-left: 1%;
-    text-align: left;
-    font-family: 'Roboto Mono', monospace;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-
-    color: #FFFFFF;
-
-  }
-
-  .p8{
-    position: absolute;
-    width: 185.2px;
-    height: 43.7px;
-    left: 85%;
-    top: var(--p7top, 4%);
-    padding-left: 1%;
-    text-align: left;
-    font-family: 'Roboto Mono', monospace;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 30px;
-    
-    color: #FFFFFF;
-  }
-
-  .bar{
-    position: absolute;
-    width: 90%;
-    height: 1.3vw;
-    left: 5%;
-    top: var(--bart, 10%);
-    background: #162950;
-    border-radius: 83px;
-  }
-  
-  .barcolor{
-    position: absolute;
-    width: var(--barcolorw, 70%);
-    height:  1.3vw;
-    left: 5%;
-    top: var(--barcolort, 10%);
-    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
-    border-radius: 83px;
-  }
-  
-  
-  .css{
-    --barcolort: 25%;
-    --bart: 25%;
-    --p7top: 19%;
-  }
-
- 
-  .javascript{
-    --barcolort: 40%;
-    --bart: 40%;
-    --p7top: 34%;
-    --barcolorw: 50%;
-  }
-  
-  .react{
-    --barcolort: 55%;
-    --bart: 55%;
-    --p7top: 49%;
-    --barcolorw: 36%;
-  }
-
-  .figma{
-    --barcolort: 70%;
-    --bart: 70%;
-    --p7top: 64%;
-    --barcolorw: 40%;
-  }
-  
-  /* Media Query for Mobile Devices */
-  @media (max-width: 767px) {
-    .p7 {
-      font-size: 3vw;  
-    }
-
-    .p6 {
-        font-size: 4vw;  
-        left: 39%;
-      }
-
-    .p8{
-        font-size: 3vw;  
-        left: 75%;
-    }
-    
-  }
+}

@@ -14,135 +14,131 @@
   top: 1.5vw;
   mix-blend-mode: normal;
   border-radius: 35px;
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 .logo1:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .projects {
   position: absolute;
   width: 6.5vw;
   height: 2.2vw;
-  left: calc(50% - 5.6vw/2 - 33vw);
+  left: calc(50% - 5.6vw / 2 - 33vw);
   top: 3vw;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-style: normal;
   font-weight: 500;
   font-size: 1.2vw;
   line-height: 1.8vw;
-  color: #FFFFFF;
+  color: #ffffff;
   border: solid;
   border-color: #091124;
   border-radius: 5px;
-  transition: background-color .5s, border-color .5s, color .5s, transform .5s;
+  transition: background-color 0.5s, border-color 0.5s, color 0.5s,
+    transform 0.5s;
   cursor: pointer;
   text-decoration: none;
 }
 
 .projects:hover {
-    transform: translateY(-5px);
-    color: #091124;
-    background: white;
-    border-color: white;
-  }
+  transform: translateY(-5px);
+  color: #091124;
+  background: white;
+  border-color: white;
+}
 
 .techno {
   position: absolute;
   width: 9.3vw;
   height: 2.2vw;
-  left: calc(50% - 9vw/2 - 20vw);
+  left: calc(50% - 9vw / 2 - 20vw);
   top: 3vw;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-style: normal;
   font-weight: 500;
   font-size: 1.2vw;
   line-height: 1.8vw;
-  color: #FFFFFF;
+  color: #ffffff;
   border: solid;
   border-color: #091124;
   border-radius: 5px;
-  transition: background-color .5s, border-color .5s, color .5s, transform .5s;
+  transition: background-color 0.5s, border-color 0.5s, color 0.5s,
+    transform 0.5s;
   cursor: pointer;
   text-decoration: none;
 }
 
 .techno:hover {
-    transform: translateY(-5px);
-    color: #091124;
-    background: white;
-    border-color: white;
-  }
+  transform: translateY(-5px);
+  color: #091124;
+  background: white;
+  border-color: white;
+}
 
 .aboutme {
   position: absolute;
   width: 7vw;
   height: 2.2vw;
-  left: calc(50% - 7vw/2 - 7.5vw);
+  left: calc(50% - 7vw / 2 - 7.5vw);
   top: 3vw;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-style: normal;
   font-weight: 500;
   font-size: 1.2vw;
   line-height: 1.8vw;
   border-radius: 5px;
-  color: #FFFFFF;
+  color: #ffffff;
   border: solid;
   border-color: #091124;
-  transition: background-color .5s, border-color .5s, color .5s, transform .5s;
+  transition: background-color 0.5s, border-color 0.5s, color 0.5s,
+    transform 0.5s;
   cursor: pointer;
   text-decoration: none;
-  
 }
 .aboutme:hover {
-    transform: translateY(-5px);
-    color: #091124;
-    background: white;
-    border-color: white;
-  }
+  transform: translateY(-5px);
+  color: #091124;
+  background: white;
+  border-color: white;
+}
 
 @media (max-width: 767px) {
-    .NavbarItems {
-      height: 15vh;
-    }
-  
-    .logo1 {
-        width: 12vw;
-        top: 22%;
-        height: 10vw;
-        border-radius: 15px;
-      }
-  
-    
-  
-    .projects {
-      left: 20%;
-      top: 30%;
-      height: 6vw;
-      width: 15vw;
-      font-size: 1.5vh;
-      line-height: 4vw;
-      
-    }
-  
-    .techno {
-      left: 40%;
-      top: 30%;
-      height: 6vw;
-      width: 23vw;
-      font-size: 1.5vh;
-      line-height: 4vw;
-      
-    }
-  
-    .aboutme {
-      left: 68%;
-      top: 30%;
-      height: 6vw;
-      width: 20vw;
-      font-size: 1.5vh;
-      line-height: 4vw;
-      
-      
-    }
+  .NavbarItems {
+    height: 15vh;
   }
+
+  .logo1 {
+    width: 12vw;
+    top: 22%;
+    height: 10vw;
+    border-radius: 15px;
+  }
+
+  .projects {
+    left: 20%;
+    top: 30%;
+    height: 6vw;
+    width: 15vw;
+    font-size: 1.5vh;
+    line-height: 4vw;
+  }
+
+  .techno {
+    left: 40%;
+    top: 30%;
+    height: 6vw;
+    width: 23vw;
+    font-size: 1.5vh;
+    line-height: 4vw;
+  }
+
+  .aboutme {
+    left: 68%;
+    top: 30%;
+    height: 6vw;
+    width: 20vw;
+    font-size: 1.5vh;
+    line-height: 4vw;
+  }
+}
